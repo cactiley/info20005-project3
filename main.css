@@ -110,6 +110,14 @@ p {
     height: 38px;
 }
 
+.card-x-scroll {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 0 35px;
+}
+
 /* SITEWIDE */
 
 /* PAGE-SPECIFIC - HOMEPAGE */
@@ -135,7 +143,7 @@ p {
     /* temp */
     box-sizing: border-box;
     height: 347px;
-    padding: 42px 35px 20px;
+    padding: 42px 0 20px;
     margin: 50px 0;
 }
 
@@ -163,7 +171,7 @@ p {
     /* temp */
     height: 347px;
     width: 318px;
-    margin: -20px -35px;
+    margin: -42px -35px;
 
     clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100%);
 }
@@ -177,9 +185,23 @@ p {
     /* temp */
     height: 347px;
     width: 318px;
-    margin: -20px -35px;
+    margin: -42px -35px;
 
     clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+
+/* i'm just testing stuff here */
+.category .heading {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 347px;
+    padding: 10px 20px;
+    height: 44px;
+    background-color: #674657;
+    color: var(--main-heading-text-color);
+    display: flex;
+    align-items: center;
 }
 
 .category p {
